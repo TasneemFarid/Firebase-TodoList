@@ -9,9 +9,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<RouteLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/todoapp" element={<TodoApp />} />
+          <Route index element={<TodoApp />} />
         </Route>
       </Routes>
 
