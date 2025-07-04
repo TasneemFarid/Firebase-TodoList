@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-container: 1320px;
+}
+
+/* .slick-next {
+  right: 15px !important;
+}
+
+.slick-prev {
+  left: 12px !important;
+  z-index: 1 !important;
+} */
